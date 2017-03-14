@@ -1,0 +1,113 @@
+.game_with_question {
+    background-color: rgba(204, 204, 204, 0.4);
+    width: 99%;
+    height: 70%;
+    padding: 5px;
+    display: none;
+    text-align: center;
+}
+
+#question {
+    text-align: center;
+}
+
+#category_headers {
+    text-transform: uppercase;
+}
+
+.game_without_questions {
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: none;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #bfbfbf;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+.team_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: -3px;
+}
+
+.settings {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 400px;
+}
+
+.teams {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -2px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 400px;
+}
+
+#next_button {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.setup {
+    text-align: center;
+    margin: 0 auto;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#8c8c8c, #404040);
+    backgound-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}

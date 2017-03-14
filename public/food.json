@@ -1,0 +1,28 @@
+{
+    "foodQuestions":[{
+            "question":"The avocado tree grows to how tall?",
+            "answer":"66 feet",
+            "points":"100"
+        },
+        {
+            "question":"Black-eyed peas are not peas. What are they?",
+            "answer":"Beans",
+            "points":"200"
+        },
+        {
+            "question":"What was the original flavor of the filling in Twinkies?",
+            "answer":"Banana Cream",
+            "points":"300"
+        },
+        {
+            "question":"What type of flowers produce vanilla pods?",
+            "answer":"Orchids",
+            "points":"400"
+        },
+        {
+            "question":"What is the white part of the egg called?",
+            "answer":"Glair",
+            "points":"500"
+        }
+    ]
+}

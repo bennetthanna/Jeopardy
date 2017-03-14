@@ -1,0 +1,28 @@
+{
+    "sportsQuestions":[{
+            "question":"What is the USBC required height for bowling pins?",
+            "answer":"15 inches",
+            "points":"100"
+        },
+        {
+            "question":"Which team won the first NFL superbowl?",
+            "answer":"Green Bay Packers",
+            "points":"200"
+        },
+        {
+            "question":"How much money is a US Olympic gold medalist awarded?",
+            "answer":"$25,000",
+            "points":"300"
+        },
+        {
+            "question":"What is the record for most goals by a player in a single World Cup?",
+            "answer":"13",
+            "points":"400"
+        },
+        {
+            "question":"What percentage of NBA players go broke within 5 years of retiring?",
+            "answer":"60%",
+            "points":"500"
+        }
+    ]
+}

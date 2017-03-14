@@ -1,0 +1,28 @@
+{
+    "randomQuestions":[{
+            "question":"What is the bluebird of symbol of?",
+            "answer":"Happiness",
+            "points":"100"
+        },
+        {
+            "question":"How many points does a compass have?",
+            "answer":"32",
+            "points":"200"
+        },
+        {
+            "question":"What element on the periodic table begins with K?",
+            "answer":"Krypton",
+            "points":"300"
+        },
+        {
+            "question":"What did the ancient Romans die their hair with?",
+            "answer":"Bird poop",
+            "points":"400"
+        },
+        {
+            "question":"Which country has the most tractors per capita?",
+            "answer":"Iceland",
+            "points":"500"
+        }
+    ]
+}

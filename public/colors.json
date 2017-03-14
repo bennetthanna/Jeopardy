@@ -1,0 +1,29 @@
+{
+    "colorQuestions":[
+        {
+            "question":"What color is a banana?",
+            "answer":"Yellow",
+            "points":"100"
+        },
+        {
+            "question":"In ROYGBIV what does I stand for?",
+            "answer":"Indigo",
+            "points":"200"
+        },
+        {
+            "question":"What does red and yellow make?",
+            "answer":"Orange",
+            "points":"300"
+        },
+        {
+            "question":"What are the primary colors?",
+            "answer":"Yellow, Red, Blue",
+            "points":"400"
+        },
+        {
+            "question":"Oscar is what color?",
+            "answer":"Gold",
+            "points":"500"
+        }
+    ]
+}

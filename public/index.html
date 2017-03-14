@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+    <div class="setup">
+      <h1>Welcome to Jeopardy</h1>
+      <div class="settings">
+        <h2>Select five categories</h2>
+        <input type="checkbox" class="messageCheckbox" id="category" name="Animals" value="animals">Animals
+        <input type="checkbox" class="messageCheckbox" id="category" name="Food" value="food">Food
+        <input type="checkbox" class="messageCheckbox" id="category" name="States" value="states">States
+        <input type="checkbox" class="messageCheckbox" id="category" name="Colors" value="colors">Colors
+        <input type="checkbox" class="messageCheckbox" id="category" name="Sports" value="sports">Sports
+        <input type="checkbox" class="messageCheckbox" id="category" name="Random" value="random">Random
+      </div>
+      <div class="teams">
+        <h2>Enter up to four teams (two minimum)</h2>
+        Team 1: <input type="text" class="team_name" name="team1" ng-model="teams[0]"><br>
+        Team 2: <input type="text" class="team_name" name="team2" ng-model="teams[1]"><br>
+        Team 3: <input type="text" class="team_name" name="team3" ng-model="teams[2]"><br>
+        Team 4: <input type="text" class="team_name" name="team4" ng-model="teams[3]">
+      </div>
+      <button type="button" id="next_button" onClick="validate_setup()" class="button">Next>></button>
+    </div>
+    <div class="game_without_questions">
+      <table style="width:100%">
+        <tr id="category_headers">
+        </tr>
+        <tr id="100">
+        </tr>
+        <tr id="200">
+        </tr>
+        <tr id="300">
+        </tr>
+        <tr id="400">
+        </tr>
+        <tr id="500">
+        </tr>
+      </table>
+      <div class="display_team_scores">
+        <table style="width:100%">
+          <tr id="team_headers">
+            <th ng-repeat="team in teams">{{team}} : {{scores[$index]}}</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="game_with_question">
+      <p id="question"></p>
+      <a href="javascript:void(0)" onclick="show_answer()">Answer</a>
+      <p id="display_answer"></p>
+      <div id="team_buttons">
+        <button type="button" class="team_button" ng-repeat="team in teams" ng-disabled="button_clicked" ng-click="increaseScore($index)">{{team}} : {{scores[$index]}}</button>
+      </div>
+      <button type="button" ng-click="enable_buttons()" onClick="return_to_game()">Close</button>
+    </div>
+    <div class="answer"></div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "animalQuestions":[{
+            "question":"How many hearts does an octopus have?",
+            "answer":"Three",
+            "points":"100"
+        },
+        {
+            "question":"What is the sleepiest animal in the world, sleeping around 22 hours each day?",
+            "answer":"Koala",
+            "points":"200"
+        },
+        {
+            "question":"What is a group of rhinos called?",
+            "answer":"A Crash",
+            "points":"300"
+        },
+        {
+            "question":"What are baby beavers called?",
+            "answer":"Kitten or Kit",
+            "points":"400"
+        },
+        {
+            "question":"Which animal has the largest brain?",
+            "answer":"Sperm whale",
+            "points":"500"
+        }
+    ]
+}

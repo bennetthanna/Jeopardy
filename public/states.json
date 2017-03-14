@@ -1,0 +1,28 @@
+{
+    "stateQuestions":[{
+            "question":"Which is the only state with a different design on the front and back of its flag?",
+            "answer":"Oregon",
+            "points":"100"
+        },
+        {
+            "question":"Which state shares the most borders with other states?",
+            "answer":"Missouri or Tennessee",
+            "points":"200"
+        },
+        {
+            "question":"How many states does Maine border",
+            "answer":"One",
+            "points":"300"
+        },
+        {
+            "question":"Which state is the smallest state by land area?",
+            "answer":"Rhode Island",
+            "points":"400"
+        },
+        {
+            "question":"Which state has the fewest number of counties",
+            "answer":"Delaware",
+            "points":"500"
+        }
+    ]
+}
